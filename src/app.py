@@ -1,10 +1,10 @@
 """Класс App: окно и главный игровой цикл."""
 import tkinter as tk
 
-from pink_snake_mimimi.src.models.snake_model import SnakeModel
-from pink_snake_mimimi.src.models.apple_model import AppleModel
-from pink_snake_mimimi.src.renderers.renderer import Renderer
-from pink_snake_mimimi.src.widgets.controls import Controls
+from src.models.snake_model import SnakeModel
+from src.models.apple_model import AppleModel
+from src.renderers.renderer import Renderer
+from src.widgets.controls import Controls
 
 
 class App:
@@ -12,7 +12,7 @@ class App:
 
     SCREEN_WIDTH = 640
     SCREEN_HEIGHT = 480
-    SPEED_MS = 100  # задержка между кадрами в миллисекундах
+    SPEED_MS = 120
 
     def __init__(self):
         """Инициализирует окно, модели, рендерер и управление."""

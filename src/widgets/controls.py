@@ -1,5 +1,5 @@
 """Виджет управления: обработка нажатий клавиш."""
-from pink_snake_mimimi.src.models.snake_model import UP, DOWN, LEFT, RIGHT
+from src.models.snake_model import UP, DOWN, LEFT, RIGHT
 
 
 class Controls:

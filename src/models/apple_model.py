@@ -1,7 +1,7 @@
 """Модель яблока."""
 from random import randint
 
-from pink_snake_mimimi.src.models.animation_model import GameObject
+from src.models.animation_model import GameObject
 
 
 GRID_SIZE = 20

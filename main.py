@@ -1,5 +1,5 @@
 """Точка входа в игру 'Змейка'."""
-from pink_snake_mimimi.src.app import App
+from src.app import App
 
 
 def main():
