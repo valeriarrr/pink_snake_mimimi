@@ -96,4 +96,4 @@ animation_project/
 **Смотри выше в пункте 'Демонстрация работы программы'**
 
 ### Запуск программы
-Из файла main.py или через 'python main.py' в терминале.
+Из файла main.py или через 'python main.py' в терминале.# pink_snake_mimimi
